@@ -39,6 +39,12 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!--Зависимости для безопасности-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!--Зависимости для логирования-->
         <dependency>
             <groupId>net.logstash.logback</groupId>
